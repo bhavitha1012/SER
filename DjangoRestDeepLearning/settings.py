@@ -149,10 +149,10 @@ WSGI_APPLICATION = 'DjangoRestDeepLearning.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dc6i9modn7v2v8',
-        'USER': 'tkhpffyrhxzaqy',
-        'PASSWORD': 'd04a6bd08360ea97e953e9e554a2927ebd0d0e6932dc0b3b09ef12c904909e1f',
-        'HOST': 'ec2-54-86-170-8.compute-1.amazonaws.com',
+        'NAME': 'django-emotion-classification',
+        'USER': 'marco',
+        'PASSWORD': 'test',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
         'OPTIONS': {'sslmode': 'disable'},
     }
