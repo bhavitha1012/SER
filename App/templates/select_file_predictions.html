@@ -7,7 +7,7 @@
         <h5>Please select one file at a time from the list of server files below.</h5>
         <h5>Clicking on the filename you can listen to the audio file.</h5>
         {% for myfile in filename %}
-          <input type="checkbox" name="file_name" value="{{ myfile }}">
+          <input type="radio" name="file_name" value="{{ myfile }}">
             <label>
                 <a href="/media/{{ myfile }}">{{ myfile }}</a>
             </label>

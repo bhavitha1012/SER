@@ -227,7 +227,7 @@ class Predict(views.APIView):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        model_name = 'Emotion_Voice_Detection_Model.h5'
+        model_name = 'testing10_model.h5'
         self.graph = tf.get_default_graph()
         self.loaded_model = keras.models.load_model(os.path.join(settings.MODEL_ROOT, model_name))
         self.predictions = []
